@@ -15,7 +15,7 @@ const canSend =
     amountPaisa > 0;
 
 // Update the balance after the transfer.
-balancePaisa = balancePaisa - amountPaisa;
+balancePaisa -= amountPaisa;
 
 // Display the transaction receipt.
 console.log(`
